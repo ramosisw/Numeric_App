@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Numeric App</string>
+    <string name="about">Acerca De</string>
+    <string name="developers">Desarrolladores</string>
+    <string name="acerca_de">Esta Applicación es desarrollada por alumnos del Instituto Tecnologico de Sonora Unidad
+        Guaymas.\nCon el fin de pasar la materia Metodos Numericos.
+    </string>
+    <string name="name_colaborador1">Julio C. Ramos</string>
+    <string name="correo_colaborador1">ramos.isw@gmail.com</string>
+    <string name="algorimos_encontrar_raiz">Algorimos para Encontrar una Raiz</string>
+</resources>

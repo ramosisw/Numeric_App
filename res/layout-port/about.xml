@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="@drawable/radialback"
+        >
+
+    <TextView style="@style/sub_title" android:text="@string/about" android:id="@+id/textView3"
+              android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acerca_de"
+            android:id="@+id/textView4" android:layout_gravity="center_horizontal|right" android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" android:textColor="#525252" android:textSize="16dp"
+            android:paddingBottom="20dp" android:singleLine="false"/>
+    <TextView
+            android:text="@string/developers"
+            android:id="@+id/textView2"
+            style="@style/sub_title" android:singleLine="false"/>
+    <LinearLayout
+            style="@style/developer_item" android:paddingLeft="10dp">
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView" android:background="@drawable/profile_01"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:layout_marginTop="10dp">
+            <TextView
+                    android:text="@string/name_colaborador1"
+                    android:id="@+id/textView"
+                    style="@style/developer_name"/>
+            <TextView
+                    android:text="@string/correo_colaborador1"
+                    android:id="@+id/textView1"
+                    style="@style/developer_email"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

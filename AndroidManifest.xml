@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.wayproyect.numeric_app">
+    <uses-sdk android:minSdkVersion="8"/>
+    <application android:icon="@drawable/icono" android:label="@string/app_name">
+        <activity android:name=".vistas.Splash_Screen" android:label="@string/app_name"
+                  android:screenOrientation="portrait"
+                  android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".vistas.Menu"
+                  android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".vistas.About"
+                  android:theme="@android:style/Theme.NoTitleBar"/>
+    </application>
+</manifest>
