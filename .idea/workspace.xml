@@ -24,12 +24,10 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6de7d12-3f7d-499e-87c2-0276e7516edc" name="Default" comment="Rejected commit: Default">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/EvalFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/FormatearFuncion/FormatearFuncion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/RPN.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/RevisarParentesis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/ShutingYard.java" />
+    <list default="true" id="f6de7d12-3f7d-499e-87c2-0276e7516edc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/ReglaFalsa.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/regla_falsa/ReglaFalsa_Manual.java" afterPath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/regla_falsa/ReglaFalsa_Manual.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-port/regla_falsa_manual.xml" afterPath="$PROJECT_DIR$/res/layout-port/regla_falsa_manual.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Numeric_App.iws" />
@@ -37,7 +35,7 @@
     <ignored path="gen/com/wayproyect/numeric_app/R.java" />
     <ignored path="gen/com/wayproyect/numeric_app/Manifest.java" />
     <ignored path="gen/com/wayproyect/numeric_app/BuildConfig.java" />
-    <file path="/Dummy.txt" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384497097376" ignored="false" />
+    <file path="/Dummy.txt" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384497127138" ignored="false" />
     <file path="/Splash_Screen.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384392117248" ignored="false" />
     <file path="/splash_screen.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384271219439" ignored="false" />
     <file path="/fragment.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384223599775" ignored="false" />
@@ -64,12 +62,14 @@
     <file path="/biseccion_auto.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384488613484" ignored="false" />
     <file path="/Biseccion_Manual.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384491276011" ignored="false" />
     <file path="/ReglaFalsa_Auto.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384494077164" ignored="false" />
-    <file path="/ReglaFalsa_Manual.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384494071344" ignored="false" />
+    <file path="/ReglaFalsa_Manual.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384497998161" ignored="false" />
     <file path="/EvalFunction.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384496275650" ignored="false" />
     <file path="/FormatearFuncion.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384496259464" ignored="false" />
     <file path="/ShutingYard.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384496748264" ignored="false" />
     <file path="/RPN.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384496710467" ignored="false" />
     <file path="/RevisarParentesis.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384497083974" ignored="false" />
+    <file path="/ReglaFalsa.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384497646952" ignored="false" />
+    <file path="/regla_falsa_manual.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384498034161" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,10 +166,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="regla_falsa_manual.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="regla_falsa_manual.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/res/layout-port/regla_falsa_manual.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="1184" selection-end="1184" vertical-scroll-proportion="-15.64">
+            <state line="84" column="43" selection-start="5954" selection-end="5954" vertical-scroll-proportion="1.4204018">
               <folding />
             </state>
           </provider>
@@ -189,10 +189,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RevisarParentesis.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RevisarParentesis.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/RevisarParentesis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="33" selection-start="1951" selection-end="1951" vertical-scroll-proportion="0.4885321">
+            <state line="62" column="33" selection-start="1951" selection-end="1951" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReglaFalsa.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/ReglaFalsa.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="35" selection-start="1845" selection-end="1845" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReglaFalsa_Manual.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/regla_falsa/ReglaFalsa_Manual.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="54" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -259,22 +277,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/drawable/edit_text_holo_light.xml" />
         <option value="$PROJECT_DIR$/res/values/themes_numeric_app_theme.xml" />
         <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/biseccion/Biseccion_Manual.java" />
-        <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/regla_falsa/ReglaFalsa_Manual.java" />
         <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/regla_falsa/ReglaFalsa_Auto.java" />
         <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/Menu.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout-port/biseccion_auto.xml" />
         <option value="$PROJECT_DIR$/res/layout-port/biseccion_manual.xml" />
         <option value="$PROJECT_DIR$/res/layout-port/regla_falsa_auto.xml" />
-        <option value="$PROJECT_DIR$/res/layout-port/regla_falsa_manual.xml" />
         <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/EvalFunction.java" />
         <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/RPN.java" />
         <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/FormatearFuncion/FormatearFuncion.java" />
         <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/ShutingYard.java" />
         <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/RevisarParentesis.java" />
+        <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/ReglaFalsa.java" />
+        <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/regla_falsa/ReglaFalsa_Manual.java" />
+        <option value="$PROJECT_DIR$/res/layout-port/regla_falsa_manual.xml" />
       </list>
     </option>
   </component>
@@ -909,7 +927,11 @@
       <created>1384495521286</created>
       <updated>1384495521286</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Rejected commit: Default">
+      <created>1384497135807</created>
+      <updated>1384497135807</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -947,7 +969,7 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24677187" sideWeight="0.67176634" order="0" side_tool="true" content_ui="combo" x="610" y="194" width="220" height="472" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24677187" sideWeight="0.3463143" order="0" side_tool="true" content_ui="combo" x="610" y="194" width="220" height="472" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.67176634" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24677187" sideWeight="0.6536857" order="2" side_tool="false" content_ui="tabs" />
@@ -956,7 +978,7 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.67140824" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991655" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24605452" sideWeight="0.3398058" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32823366" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1071,23 +1093,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/values/styles_numeric_app_theme.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/biseccion/Biseccion_Manual.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="54" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/regla_falsa/ReglaFalsa_Manual.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="26" selection-start="179" selection-end="179" vertical-scroll-proportion="0.12265512">
           <folding />
         </state>
       </provider>
@@ -1159,16 +1167,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-port/regla_falsa_manual.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="1184" selection-end="1184" vertical-scroll-proportion="-15.64">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/RPN.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="19" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0">
@@ -1198,9 +1196,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/RevisarParentesis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="33" selection-start="1951" selection-end="1951" vertical-scroll-proportion="0.4885321">
+        <state line="62" column="33" selection-start="1951" selection-end="1951" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/ReglaFalsa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="35" selection-start="1845" selection-end="1845" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/regla_falsa/ReglaFalsa_Manual.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="54" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-port/regla_falsa_manual.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="43" selection-start="5954" selection-end="5954" vertical-scroll-proportion="1.4204018">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>

@@ -18,7 +18,7 @@
                 android:id="@+id/textView" android:layout_gravity="left|center_vertical" android:textColor="#4e4e4e"
                 android:textSize="16dp" android:textStyle="bold"/>
         <EditText android:layout_width="fill_parent" android:layout_height="wrap_content"
-                  android:id="@+id/editText" android:inputType="text|textNoSuggestions"
+                  android:id="@+id/txt_fx" android:inputType="text|textNoSuggestions"
                   android:autoText="false"/>
     </LinearLayout>
     <LinearLayout
@@ -30,14 +30,14 @@
                   android:id="@+id/textView3" android:layout_gravity="left|center_vertical"
                   android:textColor="#4e4e4e"
                   android:textSize="16dp" android:textStyle="bold"/>
-        <EditText android:layout_width="80dp" android:layout_height="wrap_content" android:id="@+id/editText2"
+        <EditText android:layout_width="80dp" android:layout_height="wrap_content" android:id="@+id/txt_a"
                   android:autoText="false" android:layout_gravity="center" android:inputType="numberSigned"
                   android:numeric="integer|signed"/>
         <TextView android:layout_width="25dp" android:layout_height="wrap_content" android:text="B:"
-                  android:id="@+id/textView4" android:layout_gravity="center"
+                  android:id="@+id/lbl_b" android:layout_gravity="center"
                   android:textColor="#4e4e4e"
                   android:textSize="16dp" android:textStyle="bold" android:layout_marginLeft="10dp"/>
-        <EditText android:layout_width="80dp" android:layout_height="wrap_content" android:id="@+id/editText3"
+        <EditText android:layout_width="80dp" android:layout_height="wrap_content" android:id="@+id/txt_b"
                   android:autoText="false" android:inputType="numberSigned" android:numeric="integer|signed"/>
     </LinearLayout>
     <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
@@ -48,7 +48,7 @@
                   android:id="@+id/textView1" android:layout_gravity="left|center_vertical" android:textColor="#4e4e4e"
                   android:textSize="16dp" android:textStyle="bold"/>
         <EditText android:layout_width="120dp" android:layout_height="wrap_content"
-                  android:id="@+id/editText1"
+                  android:id="@+id/txt_er"
                   android:layout_gravity="center_vertical|left"
                   android:inputType="numberDecimal"/>
         <TextView android:layout_width="40dp" android:layout_height="wrap_content" android:text="%"
@@ -58,7 +58,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:text="Calcular"
-                android:id="@+id/button" style="@style/ImageButtonNumeric_App_Theme"
+                android:id="@+id/btn_calcular" style="@style/ImageButtonNumeric_App_Theme"
                 android:layout_gravity="center_horizontal"/>
     </LinearLayout>
     <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="100dp"
@@ -71,7 +71,7 @@
                   android:textStyle="bold" android:gravity="right" android:layout_marginRight="5dp"
                   android:textSize="17dp"/>
         <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="0000000"
-                  android:id="@+id/textView8" android:layout_gravity="center" android:textColor="#343434"
+                  android:id="@+id/txt_xr_r" android:layout_gravity="center" android:textColor="#343434"
                   android:textSize="17dp"/>
     </LinearLayout>
     <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
@@ -82,7 +82,7 @@
                   android:textStyle="bold" android:gravity="right" android:layout_marginRight="5dp"
                   android:textSize="17dp"/>
         <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="0.02%"
-                  android:id="@+id/textView6" android:layout_gravity="center" android:textColor="#343434"
+                  android:id="@+id/txt_er_r" android:layout_gravity="center" android:textColor="#343434"
                   android:textSize="17dp"/>
     </LinearLayout>
 </LinearLayout>
