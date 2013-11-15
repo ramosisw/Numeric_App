@@ -8,7 +8,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ExpandableListView;
 import android.widget.ExpandableListView.OnChildClickListener;
-import android.widget.Toast;
 import com.wayproyect.numeric_app.R;
 import com.wayproyect.numeric_app.adapters.ExpandableListAdapter;
 
@@ -47,8 +46,7 @@ public class Menu extends Activity {
         expListView.setOnChildClickListener(new OnChildClickListener() {
             public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
                 final String selected = expListAdapter.getChild(groupPosition, childPosition);
-
-                Toast.makeText(getBaseContext(), selected, Toast.LENGTH_LONG).show();
+                //Toast.makeText(getBaseContext(), selected + "\n" + groupPosition + "\n" + childPosition, Toast.LENGTH_LONG).show();
                 return true;
             }
         });

@@ -12,10 +12,12 @@
             android:id="@+id/textView" android:layout_gravity="center" android:clickable="false"
             android:textColor="#414141" android:textSize="18dp" android:layout_marginTop="10dp"/>
     <ExpandableListView
+            android:cacheColorHint="#00000000"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:groupIndicator="@drawable/group_indicator"
             android:id="@+id/encontrar_raiz_list"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center" android:background="@android:color/transparent"
+            android:scrollingCache="true" android:smoothScrollbar="false"/>
 
 </LinearLayout>

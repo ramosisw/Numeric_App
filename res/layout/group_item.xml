@@ -4,12 +4,16 @@
               android:layout_width="fill_parent"
               android:layout_height="wrap_content"
               android:orientation="horizontal"
-              android:paddingTop="5dp" android:paddingBottom="5dp">
+              android:cacheColorHint="#00000000"
+              android:paddingTop="5dp"
+              android:paddingBottom="5dp"
+              android:background="@android:color/transparent">
 
     <TextView
             android:id="@+id/items"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:textSize="19dp" android:text="items"
-            android:layout_gravity="center_horizontal" android:textColor="#4e4e4e" android:padding="10dp"/>
+            android:layout_gravity="center_horizontal" android:textColor="#4e4e4e" android:padding="10dp"
+            android:background="@android:color/transparent"/>
 </LinearLayout>

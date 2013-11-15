@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Numeric_App_Theme" parent="android:Theme.Light">
+
+        <item name="android:editTextStyle">@style/EditTextNumeric_App_Theme</item>
+
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewNumeric_App_Theme</item>
+
+        <item name="android:buttonStyle">@style/ButtonNumeric_App_Theme</item>
+
+        <item name="android:imageButtonStyle">@style/ImageButtonNumeric_App_Theme</item>
+
+    </style>
+
+</resources>
