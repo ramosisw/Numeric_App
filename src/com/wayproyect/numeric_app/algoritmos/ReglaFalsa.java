@@ -61,7 +61,7 @@ public class ReglaFalsa {
                     fc = funcion(c);
 
                 }
-            } while (Math.abs(fc) * 100 > error);
+            } while (Math.abs(fc) * 100 >= error && Math.abs(fc) != 0);
 
         }
         return c;

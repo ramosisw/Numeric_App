@@ -25,9 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6de7d12-3f7d-499e-87c2-0276e7516edc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/ReglaFalsa.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/ReglaFalsa.java" afterPath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/ReglaFalsa.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/regla_falsa/ReglaFalsa_Manual.java" afterPath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/regla_falsa/ReglaFalsa_Manual.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-port/regla_falsa_manual.xml" afterPath="$PROJECT_DIR$/res/layout-port/regla_falsa_manual.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Numeric_App.iws" />
@@ -35,7 +34,7 @@
     <ignored path="gen/com/wayproyect/numeric_app/R.java" />
     <ignored path="gen/com/wayproyect/numeric_app/Manifest.java" />
     <ignored path="gen/com/wayproyect/numeric_app/BuildConfig.java" />
-    <file path="/Dummy.txt" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384497127138" ignored="false" />
+    <file path="/Dummy.txt" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384498050918" ignored="false" />
     <file path="/Splash_Screen.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384392117248" ignored="false" />
     <file path="/splash_screen.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384271219439" ignored="false" />
     <file path="/fragment.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384223599775" ignored="false" />
@@ -62,7 +61,7 @@
     <file path="/biseccion_auto.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384488613484" ignored="false" />
     <file path="/Biseccion_Manual.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384491276011" ignored="false" />
     <file path="/ReglaFalsa_Auto.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384494077164" ignored="false" />
-    <file path="/ReglaFalsa_Manual.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384497998161" ignored="false" />
+    <file path="/ReglaFalsa_Manual.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384499329271" ignored="false" />
     <file path="/EvalFunction.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384496275650" ignored="false" />
     <file path="/FormatearFuncion.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384496259464" ignored="false" />
     <file path="/ShutingYard.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384496748264" ignored="false" />
@@ -121,6 +120,23 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/regla_falsa/ReglaFalsa_Manual.java" line="45" class="com.wayproyect.numeric_app.vistas.regla_falsa.ReglaFalsa_Manual$1" package="com.wayproyect.numeric_app.vistas.regla_falsa">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -130,18 +146,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="biseccion_auto.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout-port/biseccion_auto.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="biseccion_manual.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout-port/biseccion_manual.xml">
           <provider editor-type-id="text-editor">
@@ -166,14 +170,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="regla_falsa_manual.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="regla_falsa_manual.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout-port/regla_falsa_manual.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="43" selection-start="5954" selection-end="5954" vertical-scroll-proportion="1.4204018">
+          <provider editor-type-id="text-editor">
+            <state line="60" column="28" selection-start="3857" selection-end="3857" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer">
+          <provider selected="true" editor-type-id="android-designer">
             <state />
           </provider>
         </entry>
@@ -201,17 +205,20 @@
       <file leaf-file-name="ReglaFalsa.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/ReglaFalsa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="35" selection-start="1845" selection-end="1845" vertical-scroll-proportion="0.0">
+            <state line="36" column="18" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReglaFalsa_Manual.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ReglaFalsa_Manual.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/regla_falsa/ReglaFalsa_Manual.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="54" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="69" column="52" selection-start="2625" selection-end="2625" vertical-scroll-proportion="1.0">
+              <folding>
+                <element signature="e#1454#1615#0" expanded="true" />
+                <element signature="e#1604#1605#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -290,9 +297,9 @@
         <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/FormatearFuncion/FormatearFuncion.java" />
         <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/ShutingYard.java" />
         <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/RevisarParentesis.java" />
+        <option value="$PROJECT_DIR$/res/layout-port/regla_falsa_manual.xml" />
         <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/ReglaFalsa.java" />
         <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/regla_falsa/ReglaFalsa_Manual.java" />
-        <option value="$PROJECT_DIR$/res/layout-port/regla_falsa_manual.xml" />
       </list>
     </option>
   </component>
@@ -594,7 +601,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
-    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
+    <property name="AndroidLayoutSelectedEditor" value="android-designer" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="?" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -931,7 +938,11 @@
       <created>1384497135807</created>
       <updated>1384497135807</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Rejected commit: Default">
+      <created>1384498059413</created>
+      <updated>1384498059413</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -969,7 +980,7 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24677187" sideWeight="0.3463143" order="0" side_tool="true" content_ui="combo" x="610" y="194" width="220" height="472" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24677187" sideWeight="0.67176634" order="0" side_tool="true" content_ui="combo" x="610" y="194" width="220" height="472" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.67176634" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24677187" sideWeight="0.6536857" order="2" side_tool="false" content_ui="tabs" />
@@ -1093,13 +1104,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/biseccion/Biseccion_Manual.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="54" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/regla_falsa/ReglaFalsa_Auto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="26" selection-start="179" selection-end="179" vertical-scroll-proportion="0.12265512">
@@ -1201,28 +1205,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-port/regla_falsa_manual.xml">
+      <provider editor-type-id="text-editor">
+        <state line="60" column="28" selection-start="3857" selection-end="3857" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://E:/Servidor/Software/sdk/platforms/android-8/android.jar!/android/view/View.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="643" column="13" selection-start="27503" selection-end="27503" vertical-scroll-proportion="0.3323217">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/ReglaFalsa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="35" selection-start="1845" selection-end="1845" vertical-scroll-proportion="0.0">
+        <state line="36" column="18" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/regla_falsa/ReglaFalsa_Manual.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="54" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="69" column="52" selection-start="2625" selection-end="2625" vertical-scroll-proportion="1.0">
+          <folding>
+            <element signature="e#1454#1615#0" expanded="true" />
+            <element signature="e#1604#1605#0" expanded="true" />
+          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-port/regla_falsa_manual.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="43" selection-start="5954" selection-end="5954" vertical-scroll-proportion="1.4204018">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
   </component>
