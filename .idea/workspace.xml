@@ -24,18 +24,8 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6de7d12-3f7d-499e-87c2-0276e7516edc" name="Default" comment="Rejected commit: Default">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/arrow_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/arrow_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/adapters/ExpandableListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/bitmap_arrow_down.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/bitmap_arrow_right.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/child_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/group_indicator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/group_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/Menu.java" afterPath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/Menu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-port/menu.xml" afterPath="$PROJECT_DIR$/res/layout-port/menu.xml" />
+    <list default="true" id="f6de7d12-3f7d-499e-87c2-0276e7516edc" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/group_item.xml" afterPath="$PROJECT_DIR$/res/layout/group_item.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Numeric_App.iws" />
@@ -43,7 +33,7 @@
     <ignored path="gen/com/wayproyect/numeric_app/R.java" />
     <ignored path="gen/com/wayproyect/numeric_app/Manifest.java" />
     <ignored path="gen/com/wayproyect/numeric_app/BuildConfig.java" />
-    <file path="/Dummy.txt" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384477584673" ignored="false" />
+    <file path="/Dummy.txt" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384480831875" ignored="false" />
     <file path="/Splash_Screen.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384392117248" ignored="false" />
     <file path="/splash_screen.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384271219439" ignored="false" />
     <file path="/fragment.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384223599775" ignored="false" />
@@ -124,30 +114,12 @@
       <file leaf-file-name="menu.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout-port/menu.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="12" selection-start="914" selection-end="914" vertical-scroll-proportion="2.36">
+            <state line="18" column="12" selection-start="914" selection-end="914" vertical-scroll-proportion="-12.24">
               <folding />
             </state>
           </provider>
           <provider editor-type-id="android-designer">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bitmap_arrow_down.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/drawable/bitmap_arrow_down.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="50" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bitmap_arrow_right.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/drawable/bitmap_arrow_right.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="51" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -162,10 +134,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Menu.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/Menu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="8" selection-start="1351" selection-end="1351" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1424#1811#0" expanded="true" />
+                <element signature="e#1800#1801#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="group_item.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/group_item.xml">
           <provider editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
+            <state line="7" column="0" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -174,22 +159,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Menu.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/Menu.java">
+      <file leaf-file-name="bitmap_arrow_down.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/drawable/bitmap_arrow_down.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="8" selection-start="1351" selection-end="1351" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#1424#1811#0" expanded="true" />
-                <element signature="e#1800#1801#0" expanded="true" />
-              </folding>
+            <state line="7" column="61" selection-start="303" selection-end="303" vertical-scroll-proportion="0.17708333">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="group_indicator.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/res/drawable/group_indicator.xml">
+      <file leaf-file-name="bitmap_arrow_right.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/drawable/bitmap_arrow_right.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="40" selection-start="357" selection-end="357" vertical-scroll-proportion="0.15178572">
+            <state line="7" column="51" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -249,7 +231,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/drawable/radialback.xml" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/layout-port/about.xml" />
         <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/Splash_Screen.java" />
@@ -257,14 +238,15 @@
         <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/About.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/adapters/ExpandableListAdapter.java" />
-        <option value="$PROJECT_DIR$/res/layout/child_item.xml" />
         <option value="$PROJECT_DIR$/res/menu/menu_menu.xml" />
-        <option value="$PROJECT_DIR$/res/layout/group_item.xml" />
         <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/Menu.java" />
         <option value="$PROJECT_DIR$/res/layout-port/menu.xml" />
         <option value="$PROJECT_DIR$/res/drawable/bitmap_arrow_up.xml" />
         <option value="$PROJECT_DIR$/res/drawable/bitmap_arrow_right.xml" />
         <option value="$PROJECT_DIR$/res/drawable/group_indicator.xml" />
+        <option value="$PROJECT_DIR$/res/layout/child_item.xml" />
+        <option value="$PROJECT_DIR$/res/layout/group_item.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/bitmap_arrow_down.xml" />
       </list>
     </option>
   </component>
@@ -494,7 +476,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
-    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
+    <property name="AndroidLayoutSelectedEditor" value="android-designer" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="?" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -759,7 +741,11 @@
       <created>1384474537983</created>
       <updated>1384474537983</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Rejected commit: Default">
+      <created>1384480839101</created>
+      <updated>1384480839101</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -784,7 +770,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23027259" sideWeight="0.67176634" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24677187" sideWeight="0.5869263" order="2" side_tool="false" content_ui="tabs" />
@@ -808,7 +794,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24677187" sideWeight="0.67176634" order="0" side_tool="true" content_ui="combo" x="610" y="194" width="220" height="472" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24677187" sideWeight="0.41307372" order="0" side_tool="true" content_ui="combo" x="610" y="194" width="220" height="472" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -966,13 +952,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/child_item.xml">
-      <provider editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+    <entry file="file://$PROJECT_DIR$/res/menu/menu_menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="38" selection-start="144" selection-end="144" vertical-scroll-proportion="0.07359307">
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer">
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-port/menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="12" selection-start="914" selection-end="914" vertical-scroll-proportion="-12.24">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
@@ -985,16 +978,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/menu_menu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="38" selection-start="144" selection-end="144" vertical-scroll-proportion="0.07359307">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/group_item.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/child_item.xml">
       <provider editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
+        <state line="14" column="0" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1002,31 +988,32 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/group_indicator.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="56" selection-start="357" selection-end="357" vertical-scroll-proportion="0.14718615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="8" selection-start="1351" selection-end="1351" vertical-scroll-proportion="0.0">
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#1424#1811#0" expanded="true" />
             <element signature="e#1800#1801#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-port/menu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="12" selection-start="914" selection-end="914" vertical-scroll-proportion="2.36">
+    <entry file="file://$PROJECT_DIR$/res/layout/group_item.xml">
+      <provider editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
+      <provider selected="true" editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable/bitmap_arrow_down.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="50" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable/bitmap_arrow_right.xml">
@@ -1036,9 +1023,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable/group_indicator.xml">
+    <entry file="file://$PROJECT_DIR$/res/drawable/bitmap_arrow_down.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="40" selection-start="357" selection-end="357" vertical-scroll-proportion="0.15178572">
+        <state line="7" column="61" selection-start="303" selection-end="303" vertical-scroll-proportion="0.17708333">
           <folding />
         </state>
       </provider>
