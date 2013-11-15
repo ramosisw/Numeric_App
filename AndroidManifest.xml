@@ -12,8 +12,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".vistas.Menu"
+                  android:screenOrientation="portrait"
                   android:theme="@android:style/Theme.NoTitleBar"/>
         <activity android:name=".vistas.About"
+                  android:screenOrientation="portrait"
                   android:theme="@android:style/Theme.NoTitleBar"/>
     </application>
 </manifest>

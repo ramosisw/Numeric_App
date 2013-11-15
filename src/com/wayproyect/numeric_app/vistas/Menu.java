@@ -3,8 +3,19 @@ package com.wayproyect.numeric_app.vistas;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.DisplayMetrics;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ExpandableListView;
+import android.widget.ExpandableListView.OnChildClickListener;
+import android.widget.Toast;
 import com.wayproyect.numeric_app.R;
+import com.wayproyect.numeric_app.adapters.ExpandableListAdapter;
+
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * Created with wayproyect
@@ -14,9 +25,73 @@ import com.wayproyect.numeric_app.R;
  * To change this template use File | Settings | File Templates.
  */
 public class Menu extends Activity {
+    List<String> groupList;
+    List<String> childList;
+    Map<String, List<String>> encontrar_raiz;
+    ExpandableListView expListView;
+
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         super.setContentView(R.layout.menu);
+
+        createGroupList();
+        createCollection();
+
+        expListView = (ExpandableListView) findViewById(R.id.encontrar_raiz_list);
+        final ExpandableListAdapter expListAdapter = new ExpandableListAdapter(this, groupList, encontrar_raiz);
+        expListView.setAdapter(expListAdapter);
+
+
+        setGroupIndicatorToRight();
+
+        expListView.setOnChildClickListener(new OnChildClickListener() {
+            public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
+                final String selected = expListAdapter.getChild(groupPosition, childPosition);
+
+                Toast.makeText(getBaseContext(), selected, Toast.LENGTH_LONG).show();
+                return true;
+            }
+        });
+    }
+
+    private void createGroupList() {
+        groupList = new ArrayList<String>();
+        groupList.add("Bisección");
+        groupList.add("Regla Falsa");
+        groupList.add("Newton Raphson");
+        groupList.add("Secante");
+
+    }
+
+    private void createCollection() {
+        encontrar_raiz = new LinkedHashMap<String, List<String>>();
+        for (String group : groupList) {
+            loadChild();
+            encontrar_raiz.put(group, childList);
+        }
+    }
+
+    private void loadChild() {
+        childList = new ArrayList<String>();
+        childList.add("Automatico");
+        childList.add("Manual");
+    }
+
+    private void setGroupIndicatorToRight() {
+        /* Get the screen width */
+        DisplayMetrics dm = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(dm);
+        int width = dm.widthPixels;
+        expListView.setIndicatorBounds(width - getDipsFromPixel(50), width
+                - getDipsFromPixel(10));
+    }
+
+    // Convert pixel to dip
+    public int getDipsFromPixel(float pixels) {
+        // Get the screen's density scale
+        final float scale = getResources().getDisplayMetrics().density;
+        // Convert the dps to pixels, based on density scale
+        return (int) (pixels * scale + 0.5f);
     }
 
     @Override
