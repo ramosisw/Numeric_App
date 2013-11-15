@@ -12,7 +12,6 @@ import com.wayproyect.numeric_app.R;
  *         Time: 11:40 AM
  *         To change this template use File | Settings | File Templates.
  */
-
 public class About extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
