@@ -24,14 +24,9 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6de7d12-3f7d-499e-87c2-0276e7516edc" name="Default" comment="Rejected commit: Default">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/regla_falsa/ReglaFalsa_Auto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/regla_falsa/ReglaFalsa_Manual.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-port/regla_falsa_auto.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-port/regla_falsa_manual.xml" />
+    <list default="true" id="f6de7d12-3f7d-499e-87c2-0276e7516edc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/Menu.java" afterPath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/Menu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-port/biseccion_manual.xml" afterPath="$PROJECT_DIR$/res/layout-port/biseccion_manual.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MOVED" beforePath="E:\Archivos Fam R.P\IdeaProjects\Numeric_App\res\layout-port\Biseccion_Auto.xml" afterPath="$PROJECT_DIR$/res/layout-port/biseccion_auto.xml" />
     </list>
@@ -40,11 +35,11 @@
     <ignored path="gen/com/wayproyect/numeric_app/R.java" />
     <ignored path="gen/com/wayproyect/numeric_app/Manifest.java" />
     <ignored path="gen/com/wayproyect/numeric_app/BuildConfig.java" />
-    <file path="/Dummy.txt" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384494046864" ignored="false" />
+    <file path="/Dummy.txt" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384494088106" ignored="false" />
     <file path="/Splash_Screen.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384392117248" ignored="false" />
     <file path="/splash_screen.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384271219439" ignored="false" />
     <file path="/fragment.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384223599775" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384485352582" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384494561411" ignored="false" />
     <file path="/radialback.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384273090100" ignored="false" />
     <file path="/translate.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384144282451" ignored="false" />
     <file path="/splash_animation.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384225719148" ignored="false" />
@@ -128,10 +123,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Menu.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Menu.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="123" selection-start="1980" selection-end="1980" vertical-scroll-proportion="0.3325688">
+            <state line="66" column="10" selection-start="2391" selection-end="2391" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -223,10 +218,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="54" selection-start="1430" selection-end="1430" vertical-scroll-proportion="0.0">
+            <state line="29" column="18" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.73363096">
               <folding />
             </state>
           </provider>
@@ -257,6 +252,12 @@
     <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
   </component>
   <component name="GitLogSettings">
+    <option name="myContainedLocalBranches">
+      <list>
+        <option value="Numeric_App" />
+        <option value="master" />
+      </list>
+    </option>
     <option name="myStructureFilterPaths" />
     <option name="myDateState">
       <MyDateState />
@@ -275,12 +276,12 @@
         <option value="$PROJECT_DIR$/res/drawable/edit_text_holo_light.xml" />
         <option value="$PROJECT_DIR$/res/values/themes_numeric_app_theme.xml" />
         <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/biseccion/Biseccion_Manual.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout-port/biseccion_auto.xml" />
         <option value="$PROJECT_DIR$/res/layout-port/biseccion_manual.xml" />
         <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/regla_falsa/ReglaFalsa_Manual.java" />
         <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/regla_falsa/ReglaFalsa_Auto.java" />
         <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/Menu.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -582,7 +583,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
-    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
+    <property name="AndroidLayoutSelectedEditor" value="android-designer" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="?" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -875,7 +876,11 @@
       <created>1384491501156</created>
       <updated>1384491501156</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Rejected commit: Default">
+      <created>1384494100656</created>
+      <updated>1384494100657</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -916,7 +921,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24605452" sideWeight="0.3398058" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32823366" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1101,26 +1106,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="54" selection-start="1430" selection-end="1430" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout-port/biseccion_manual.xml">
       <provider editor-type-id="text-editor">
         <state line="83" column="15" selection-start="5940" selection-end="5940" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-port/biseccion_auto.xml">
-      <provider editor-type-id="text-editor">
-        <state line="33" column="50" selection-start="0" selection-end="4655" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1164,10 +1152,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="123" selection-start="1980" selection-end="1980" vertical-scroll-proportion="0.3325688">
+        <state line="66" column="10" selection-start="2391" selection-end="2391" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-port/biseccion_auto.xml">
+      <provider editor-type-id="text-editor">
+        <state line="33" column="50" selection-start="0" selection-end="4655" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="18" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.73363096">
+          <folding />
         </state>
       </provider>
     </entry>

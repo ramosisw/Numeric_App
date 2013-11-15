@@ -63,8 +63,8 @@ public class Menu extends Activity {
         groupList = new ArrayList<String>();
         groupList.add("Bisección");
         groupList.add("Regla Falsa");
-        groupList.add("Newton Raphson");
-        groupList.add("Secante");
+        //groupList.add("Newton Raphson");
+        //groupList.add("Secante");
 
     }
 
