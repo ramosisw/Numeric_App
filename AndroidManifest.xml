@@ -20,5 +20,8 @@
         <activity android:name=".vistas.biseccion.Biseccion_Auto"
                   android:theme="@style/Numeric_App_Theme"
                   android:screenOrientation="portrait"/>
+        <activity android:name=".vistas.biseccion.Biseccion_Manual"
+                  android:theme="@style/Numeric_App_Theme"
+                  android:screenOrientation="portrait"/>
     </application>
 </manifest>
