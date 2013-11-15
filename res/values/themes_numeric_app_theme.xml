@@ -13,6 +13,12 @@
 
         <item name="android:imageButtonStyle">@style/ImageButtonNumeric_App_Theme</item>
 
+        <item name="android:listViewStyle">@style/ListViewNumeric_App_Theme</item>
+
+        <item name="android:listViewWhiteStyle">@style/ListViewNumeric_App_Theme.White</item>
+
+        <item name="android:spinnerItemStyle">@style/SpinnerItemNumeric_App_Theme</item>
+
     </style>
 
 </resources>
