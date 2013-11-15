@@ -2,7 +2,11 @@ package com.wayproyect.numeric_app.vistas.biseccion;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.*;
 import com.wayproyect.numeric_app.R;
+import com.wayproyect.numeric_app.algoritmos.Biseccion;
+import com.wayproyect.numeric_app.algoritmos.EvalFunction;
 
 /**
  * Created with IntelliJ IDEA.
@@ -12,8 +16,72 @@ import com.wayproyect.numeric_app.R;
  * To change this template use File | Settings | File Templates.
  */
 public class Biseccion_Manual extends Activity {
+    private EditText function;
+    private EditText a;
+    private EditText b;
+    private EditText er;
+    private TextView txt_xr_r;
+    private TextView txt_er_r;
+    private Button btn_calcular;
+    private LinearLayout l_r1;
+    private LinearLayout l_r2;
+
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         super.setContentView(R.layout.biseccion_manual);
+        init();
+    }
+
+    private void init() {
+        this.function = (EditText) findViewById(R.id.txt_fx);
+        this.a = (EditText) findViewById(R.id.txt_a);
+        this.b = (EditText) findViewById(R.id.txt_b);
+        this.er = (EditText) findViewById(R.id.txt_er);
+        this.txt_er_r = (TextView) findViewById(R.id.txt_er_r);
+        this.txt_xr_r = (TextView) findViewById(R.id.txt_xr_r);
+        this.btn_calcular = (Button) findViewById(R.id.btn_calcular);
+        this.btn_calcular.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                btn_calcularOnclic(view);
+            }
+        });
+        l_r1 = (LinearLayout) findViewById(R.id.ly_result1);
+        l_r2 = (LinearLayout) findViewById(R.id.ly_result2);
+        l_r1.setVisibility(View.INVISIBLE);
+        l_r2.setVisibility(View.INVISIBLE);
+    }
+
+    private void btn_calcularOnclic(View view) {
+        try {
+            String fx = this.function.getText().toString();
+            if (fx.length() == 0) {
+                Toast.makeText(this, "Error No Escribiste una ecuacion", Toast.LENGTH_LONG).show();
+                return;
+            }
+            int a = Integer.parseInt(this.a.getText().toString());
+            int b = Integer.parseInt(this.b.getText().toString());
+            double er = Double.parseDouble(this.er.getText().toString()) / 100;
+            if (er == 0) {
+                Toast.makeText(this, "Error Relativo a 0 Puede Tardar Mucho.\nIntente otro Error Relativo", Toast.LENGTH_LONG).show();
+                return;
+            }
+
+            double a_e = new EvalFunction().eval(fx, a);
+            double b_e = new EvalFunction().eval(fx, b);
+            if (a_e * b_e < 0) {
+                //Toast.makeText(this, "Si Contiene Raiz", Toast.LENGTH_LONG).show();
+                Biseccion biseccion = new Biseccion();
+                double xr = biseccion.metodoDeBiseccion(fx, a, b, er);
+                this.txt_xr_r.setText(xr + "");
+                this.txt_er_r.setText(biseccion.getER());
+                this.l_r1.setVisibility(View.VISIBLE);
+                this.l_r2.setVisibility(View.VISIBLE);
+            } else {
+                Toast.makeText(this, "En ese Intervalo no Existe una Raiz", Toast.LENGTH_LONG).show();
+            }
+        } catch (Exception ex) {
+            Toast.makeText(this, "ERROR!\nTal vez tu ecuacion esta mal escrita,\no nosotros tubimos problemas.", Toast.LENGTH_LONG).show();
+        }
     }
 }

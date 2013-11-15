@@ -25,8 +25,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6de7d12-3f7d-499e-87c2-0276e7516edc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/Biseccion.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/biseccion/Biseccion_Manual.java" afterPath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/biseccion/Biseccion_Manual.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/ReglaFalsa.java" afterPath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/ReglaFalsa.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/regla_falsa/ReglaFalsa_Manual.java" afterPath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/regla_falsa/ReglaFalsa_Manual.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-port/biseccion_manual.xml" afterPath="$PROJECT_DIR$/res/layout-port/biseccion_manual.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Numeric_App.iws" />
@@ -34,7 +37,7 @@
     <ignored path="gen/com/wayproyect/numeric_app/R.java" />
     <ignored path="gen/com/wayproyect/numeric_app/Manifest.java" />
     <ignored path="gen/com/wayproyect/numeric_app/BuildConfig.java" />
-    <file path="/Dummy.txt" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384498050918" ignored="false" />
+    <file path="/Dummy.txt" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384499462258" ignored="false" />
     <file path="/Splash_Screen.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384392117248" ignored="false" />
     <file path="/splash_screen.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384271219439" ignored="false" />
     <file path="/fragment.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384223599775" ignored="false" />
@@ -59,16 +62,17 @@
     <file path="/edit_text_holo_light.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384484616862" ignored="false" />
     <file path="/Biseccion_Auto.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384485227431" ignored="false" />
     <file path="/biseccion_auto.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384488613484" ignored="false" />
-    <file path="/Biseccion_Manual.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384491276011" ignored="false" />
+    <file path="/Biseccion_Manual.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384501187113" ignored="false" />
     <file path="/ReglaFalsa_Auto.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384494077164" ignored="false" />
-    <file path="/ReglaFalsa_Manual.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384499329271" ignored="false" />
+    <file path="/ReglaFalsa_Manual.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384499945802" ignored="false" />
     <file path="/EvalFunction.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384496275650" ignored="false" />
     <file path="/FormatearFuncion.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384496259464" ignored="false" />
     <file path="/ShutingYard.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384496748264" ignored="false" />
     <file path="/RPN.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384496710467" ignored="false" />
     <file path="/RevisarParentesis.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384497083974" ignored="false" />
-    <file path="/ReglaFalsa.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384497646952" ignored="false" />
+    <file path="/ReglaFalsa.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384499569286" ignored="false" />
     <file path="/regla_falsa_manual.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384498034161" ignored="false" />
+    <file path="/Biseccion.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384501899765" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,9 +123,12 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/regla_falsa/ReglaFalsa_Manual.java" line="45" class="com.wayproyect.numeric_app.vistas.regla_falsa.ReglaFalsa_Manual$1" package="com.wayproyect.numeric_app.vistas.regla_falsa">
+    <method_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/biseccion/Biseccion_Manual.java" line="53" class="com.wayproyect.numeric_app.vistas.biseccion.Biseccion_Manual" package="com.wayproyect.numeric_app.vistas.biseccion">
+        <option name="WATCH_ENTRY" value="true" />
+        <option name="WATCH_EXIT" value="true" />
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -136,7 +143,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-    </line_breakpoints>
+    </method_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -149,19 +156,7 @@
       <file leaf-file-name="biseccion_manual.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout-port/biseccion_manual.xml">
           <provider editor-type-id="text-editor">
-            <state line="87" column="15" selection-start="6108" selection-end="6108" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="regla_falsa_auto.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout-port/regla_falsa_auto.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="87" column="15" selection-start="6099" selection-end="6099" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -182,39 +177,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RPN.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/RPN.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="19" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RevisarParentesis.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/RevisarParentesis.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="33" selection-start="1951" selection-end="1951" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ReglaFalsa.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/ReglaFalsa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="18" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0">
+            <state line="75" column="8" selection-start="2043" selection-end="2162" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReglaFalsa_Manual.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Biseccion.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/Biseccion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="19" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.95671">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReglaFalsa_Manual.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/regla_falsa/ReglaFalsa_Manual.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="52" selection-start="2625" selection-end="2625" vertical-scroll-proportion="1.0">
+            <state line="82" column="27" selection-start="1892" selection-end="3271" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#1454#1615#0" expanded="true" />
                 <element signature="e#1604#1605#0" expanded="true" />
@@ -223,23 +207,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FormatearFuncion.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/FormatearFuncion/FormatearFuncion.java">
+      <file leaf-file-name="Biseccion_Manual.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/biseccion/Biseccion_Manual.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="59" selection-start="836" selection-end="836" vertical-scroll-proportion="0.0">
+            <state line="73" column="52" selection-start="2934" selection-end="2934" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShutingYard.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/ShutingYard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="15" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1507#1668#0" expanded="true" />
+                <element signature="e#1657#1658#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -284,13 +258,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/values/themes_numeric_app_theme.xml" />
-        <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/biseccion/Biseccion_Manual.java" />
         <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/regla_falsa/ReglaFalsa_Auto.java" />
         <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/Menu.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout-port/biseccion_auto.xml" />
-        <option value="$PROJECT_DIR$/res/layout-port/biseccion_manual.xml" />
         <option value="$PROJECT_DIR$/res/layout-port/regla_falsa_auto.xml" />
         <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/EvalFunction.java" />
         <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/RPN.java" />
@@ -298,8 +269,11 @@
         <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/ShutingYard.java" />
         <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/RevisarParentesis.java" />
         <option value="$PROJECT_DIR$/res/layout-port/regla_falsa_manual.xml" />
-        <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/ReglaFalsa.java" />
         <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/regla_falsa/ReglaFalsa_Manual.java" />
+        <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/ReglaFalsa.java" />
+        <option value="$PROJECT_DIR$/res/layout-port/biseccion_manual.xml" />
+        <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/biseccion/Biseccion_Manual.java" />
+        <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/Biseccion.java" />
       </list>
     </option>
   </component>
@@ -337,6 +311,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -566,19 +541,18 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="172" />
-    <property name="project.structure.proportion" value="0.0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="172" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="176" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="176" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="173" />
@@ -594,13 +568,13 @@
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="AndroidLayoutSelectedEditor" value="android-designer" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="?" />
@@ -657,19 +631,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -696,6 +657,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -734,22 +708,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
       <option name="BCName" value="" />
       <option name="IOSSimulatorSdkPath" value="" />
@@ -782,6 +740,22 @@
       <option name="screenWidth" value="0" />
       <option name="url" value="http://" />
       <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="Numeric_App" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -942,7 +916,11 @@
       <created>1384498059413</created>
       <updated>1384498059413</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Rejected commit: Default">
+      <created>1384499425849</created>
+      <updated>1384499425849</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -969,32 +947,32 @@
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23027259" sideWeight="0.67176634" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23027259" sideWeight="0.6008345" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24677187" sideWeight="0.3922114" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32127956" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24677187" sideWeight="0.67176634" order="0" side_tool="true" content_ui="combo" x="610" y="194" width="220" height="472" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.67176634" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24677187" sideWeight="0.6536857" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.67140824" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991655" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32127956" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24605452" sideWeight="0.3398058" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24677187" sideWeight="0.67176634" order="0" side_tool="true" content_ui="combo" x="610" y="194" width="220" height="472" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.67176634" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.67140824" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1104,22 +1082,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/regla_falsa/ReglaFalsa_Auto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="26" selection-start="179" selection-end="179" vertical-scroll-proportion="0.12265512">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="10" selection-start="2391" selection-end="2391" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="18" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.71139973">
@@ -1137,16 +1099,6 @@
     <entry file="file://$PROJECT_DIR$/res/layout-port/biseccion_auto.xml">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-port/biseccion_manual.xml">
-      <provider editor-type-id="text-editor">
-        <state line="87" column="15" selection-start="6108" selection-end="6108" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1174,27 +1126,21 @@
     <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/RPN.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="19" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/FormatearFuncion/FormatearFuncion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="59" selection-start="836" selection-end="836" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/ShutingYard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="15" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1217,25 +1163,50 @@
     </entry>
     <entry file="jar://E:/Servidor/Software/sdk/platforms/android-8/android.jar!/android/view/View.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="643" column="13" selection-start="27503" selection-end="27503" vertical-scroll-proportion="0.3323217">
-          <folding />
+        <state line="643" column="13" selection-start="27503" selection-end="27503" vertical-scroll-proportion="0.3323217" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/regla_falsa/ReglaFalsa_Manual.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="27" selection-start="1892" selection-end="3271" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1454#1615#0" expanded="true" />
+            <element signature="e#1604#1605#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/ReglaFalsa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="18" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0">
+        <state line="75" column="8" selection-start="2043" selection-end="2162" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/regla_falsa/ReglaFalsa_Manual.java">
+    <entry file="file://$PROJECT_DIR$/res/layout-port/biseccion_manual.xml">
+      <provider editor-type-id="text-editor">
+        <state line="87" column="15" selection-start="6099" selection-end="6099" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/biseccion/Biseccion_Manual.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="52" selection-start="2625" selection-end="2625" vertical-scroll-proportion="1.0">
+        <state line="73" column="52" selection-start="2934" selection-end="2934" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#1454#1615#0" expanded="true" />
-            <element signature="e#1604#1605#0" expanded="true" />
+            <element signature="e#1507#1668#0" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/algoritmos/Biseccion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="19" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.95671">
+          <folding />
         </state>
       </provider>
     </entry>

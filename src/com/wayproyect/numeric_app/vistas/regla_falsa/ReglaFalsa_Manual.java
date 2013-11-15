@@ -56,7 +56,11 @@ public class ReglaFalsa_Manual extends Activity {
         try {
             int a = Integer.parseInt(this.a.getText().toString());
             int b = Integer.parseInt(this.b.getText().toString());
-            double er = Double.parseDouble(this.er.getText().toString());
+            double er = Double.parseDouble(this.er.getText().toString()) / 100;
+            if (er == 0) {
+                Toast.makeText(this, "Error Relativo a 0 Puede Tardar Mucho.\nIntente otro Error Relativo", Toast.LENGTH_LONG).show();
+                return;
+            }
             String fx = this.function.getText().toString();
             if (fx.length() == 0) {
                 return;
@@ -64,12 +68,15 @@ public class ReglaFalsa_Manual extends Activity {
             double a_e = new EvalFunction().eval(fx, a);
             double b_e = new EvalFunction().eval(fx, b);
             if (a_e * b_e < 0) {
-                Toast.makeText(this, "Si Contiene Raiz", Toast.LENGTH_LONG).show();
-                double xr = new ReglaFalsa().metodoDeReglaFalsa(fx, a, b, er);
+                //Toast.makeText(this, "Si Contiene Raiz", Toast.LENGTH_LONG).show();
+                ReglaFalsa reglaFalsa = new ReglaFalsa();
+                double xr = reglaFalsa.metodoDeReglaFalsa(fx, a, b, er);
                 this.txt_xr_r.setText(xr + "");
+                this.txt_er_r.setText(reglaFalsa.getER());
                 this.l_r1.setVisibility(View.VISIBLE);
+                this.l_r2.setVisibility(View.VISIBLE);
             } else {
-                Toast.makeText(this, "No Tiene Raiz", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "En ese Intervalo no Existe una Raiz", Toast.LENGTH_LONG).show();
             }
         } catch (Exception ex) {
             Toast.makeText(this, "ERROR!", Toast.LENGTH_LONG).show();
