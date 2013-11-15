@@ -3,7 +3,7 @@
   <component name="AndroidDesignerProfile">
     <option name="fullProfile">
       <profile>
-        <option name="device" value="2.7in QVGA" />
+        <option name="device" value="4in WVGA (Nexus S)" />
         <option name="deviceConfiguration" value="Portrait" />
         <option name="targetHashString" value="android-8" />
         <option name="theme" value="Numeric_App_Theme" />
@@ -24,112 +24,36 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6de7d12-3f7d-499e-87c2-0276e7516edc" name="Default" comment="Rejected commit: Default">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/btn_default_disabled_focused_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/btn_default_disabled_focused_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/btn_default_disabled_focused_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/btn_default_disabled_focused_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/btn_default_disabled_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/btn_default_disabled_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/btn_default_disabled_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/btn_default_disabled_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/btn_default_focused_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/btn_default_focused_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/btn_default_focused_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/btn_default_focused_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/btn_default_normal_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/btn_default_normal_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/btn_default_normal_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/btn_default_normal_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/btn_default_pressed_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/btn_default_pressed_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/btn_default_pressed_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/btn_default_pressed_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/fastscroll_thumb_default_holo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/fastscroll_thumb_default_holo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/fastscroll_thumb_default_holo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/fastscroll_thumb_default_holo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/fastscroll_thumb_pressed_holo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/fastscroll_thumb_pressed_holo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/fastscroll_thumb_pressed_holo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/fastscroll_thumb_pressed_holo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/list_activated_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/list_activated_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/list_activated_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/list_activated_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/list_focused_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/list_focused_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/list_focused_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/list_focused_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/list_longpressed_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/list_longpressed_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/list_longpressed_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/list_longpressed_holo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/list_pressed_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/list_pressed_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/list_pressed_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/list_pressed_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/list_selector_disabled_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/list_selector_disabled_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/list_selector_disabled_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/list_selector_disabled_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/textfield_activated_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/textfield_activated_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/textfield_activated_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/textfield_activated_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/textfield_default_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/textfield_default_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/textfield_default_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/textfield_default_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/textfield_disabled_focused_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/textfield_disabled_focused_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/textfield_disabled_focused_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/textfield_disabled_focused_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/textfield_disabled_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/textfield_disabled_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/textfield_disabled_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/textfield_disabled_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/textfield_focused_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/textfield_focused_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/textfield_focused_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/textfield_focused_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/biseccion/Biseccion_Auto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-port/Biseccion_Auto.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/activated_background_holo_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_default_holo_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/edit_text_holo_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/fastscroll_thumb_holo.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/item_background_holo_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/list_selector_background_transition_holo_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/list_selector_holo_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/styles_numeric_app_theme.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values-v11/styles_numeric_app_theme.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/themes_numeric_app_theme.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values-v11/themes_numeric_app_theme.xml" />
+    <list default="true" id="f6de7d12-3f7d-499e-87c2-0276e7516edc" name="Default" comment="">
+      <change type="DELETED" beforePath="E:\Archivos Fam R.P\IdeaProjects\Numeric_App\res\values-v11\styles_numeric_app_theme.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Archivos Fam R.P\IdeaProjects\Numeric_App\res\values-v11\themes_numeric_app_theme.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/biseccion/Biseccion_Auto.java" afterPath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/biseccion/Biseccion_Auto.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/adapters/ExpandableListAdapter.java" afterPath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/adapters/ExpandableListAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/Menu.java" afterPath="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/Menu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/child_item.xml" afterPath="$PROJECT_DIR$/res/layout/child_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/group_item.xml" afterPath="$PROJECT_DIR$/res/layout/group_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-port/menu.xml" afterPath="$PROJECT_DIR$/res/layout-port/menu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/activated_background_holo_light.xml" afterPath="$PROJECT_DIR$/res/drawable/activated_background_holo_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/edit_text_holo_light.xml" afterPath="$PROJECT_DIR$/res/drawable/edit_text_holo_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/themes_numeric_app_theme.xml" afterPath="$PROJECT_DIR$/res/values/themes_numeric_app_theme.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="E:\Archivos Fam R.P\IdeaProjects\Numeric_App\res\layout-port\Biseccion_Auto.xml" afterPath="$PROJECT_DIR$/res/layout-port/biseccion_auto.xml" />
     </list>
     <ignored path="Numeric_App.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="gen/com/wayproyect/numeric_app/R.java" />
     <ignored path="gen/com/wayproyect/numeric_app/Manifest.java" />
     <ignored path="gen/com/wayproyect/numeric_app/BuildConfig.java" />
-    <file path="/Dummy.txt" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384484265125" ignored="false" />
+    <file path="/Dummy.txt" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384484411839" ignored="false" />
     <file path="/Splash_Screen.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384392117248" ignored="false" />
     <file path="/splash_screen.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384271219439" ignored="false" />
     <file path="/fragment.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384223599775" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384474633964" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384485352582" ignored="false" />
     <file path="/radialback.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384273090100" ignored="false" />
     <file path="/translate.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384144282451" ignored="false" />
     <file path="/splash_animation.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384225719148" ignored="false" />
     <file path="/menu_menu.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384479062281" ignored="false" />
     <file path="/DummyFile.xpath" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384274593211" ignored="false" />
     <file path="/strings.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384282849257" ignored="false" />
-    <file path="/Menu.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384483983343" ignored="false" />
+    <file path="/Menu.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384485130870" ignored="false" />
     <file path="/About.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384394343430" ignored="false" />
     <file path="/ExpandableListAdapter.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384482022480" ignored="false" />
     <file path="/group_item.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384476826325" ignored="false" />
@@ -138,7 +62,11 @@
     <file path="/bitmap_arrow_right.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384480758213" ignored="false" />
     <file path="/menu.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384482559708" ignored="false" />
     <file path="/Biseccion_Auto.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384482885725" ignored="false" />
-    <file path="/themes_numeric_app_theme.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384484394438" ignored="false" />
+    <file path="/themes_numeric_app_theme.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384484535310" ignored="false" />
+    <file path="/activated_background_holo_light.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384484594653" ignored="false" />
+    <file path="/edit_text_holo_light.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384484616862" ignored="false" />
+    <file path="/Biseccion_Auto.java" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384485227431" ignored="false" />
+    <file path="/biseccion_auto.xml" changelist="f6de7d12-3f7d-499e-87c2-0276e7516edc" time="1384488613484" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,29 +130,19 @@
       <file leaf-file-name="Menu.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="1312" selection-end="1312" vertical-scroll-proportion="0.0">
+            <state line="11" column="50" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout-port/menu.xml">
-          <provider editor-type-id="text-editor">
-            <state line="20" column="41" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="themes_numeric_app_theme.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/res/values-v11/themes_numeric_app_theme.xml">
+      <file leaf-file-name="ExpandableListAdapter.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/adapters/ExpandableListAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="41" selection-start="246" selection-end="246" vertical-scroll-proportion="0.2603939">
-              <folding />
+            <state line="43" column="9" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.46031746">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -232,16 +150,16 @@
       <file leaf-file-name="Biseccion_Auto.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/biseccion/Biseccion_Auto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
+            <state line="16" column="52" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Biseccion_Auto.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout-port/Biseccion_Auto.xml">
+      <file leaf-file-name="biseccion_auto.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout-port/biseccion_auto.xml">
           <provider editor-type-id="text-editor">
-            <state line="6" column="54" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+            <state line="20" column="57" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -283,22 +201,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/Splash_Screen.java" />
-        <option value="$PROJECT_DIR$/project.properties" />
-        <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/About.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/res/menu/menu_menu.xml" />
-        <option value="$PROJECT_DIR$/res/drawable/bitmap_arrow_up.xml" />
         <option value="$PROJECT_DIR$/res/drawable/bitmap_arrow_right.xml" />
         <option value="$PROJECT_DIR$/res/drawable/group_indicator.xml" />
         <option value="$PROJECT_DIR$/res/drawable/bitmap_arrow_down.xml" />
         <option value="$PROJECT_DIR$/res/layout/child_item.xml" />
         <option value="$PROJECT_DIR$/res/layout/group_item.xml" />
-        <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/adapters/ExpandableListAdapter.java" />
         <option value="$PROJECT_DIR$/res/layout-port/Biseccion_Auto.xml" />
-        <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/Menu.java" />
         <option value="$PROJECT_DIR$/res/layout-port/menu.xml" />
         <option value="$PROJECT_DIR$/res/values-v11/themes_numeric_app_theme.xml" />
+        <option value="$PROJECT_DIR$/res/values/themes_numeric_app_theme.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/activated_background_holo_light.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/edit_text_holo_light.xml" />
+        <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/Menu.java" />
+        <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/biseccion/Biseccion_Auto.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/layout-port/biseccion_auto.xml" />
+        <option value="$PROJECT_DIR$/src/com/wayproyect/numeric_app/adapters/ExpandableListAdapter.java" />
       </list>
     </option>
   </component>
@@ -437,24 +355,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="values-v11" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Numeric_App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Numeric_App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="values" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -527,24 +427,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Numeric_App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Numeric_App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -582,7 +464,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
-    <property name="AndroidLayoutSelectedEditor" value="android-designer" />
+    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="?" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -859,7 +741,11 @@
       <created>1384481228947</created>
       <updated>1384481228947</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Rejected commit: Default">
+      <created>1384484422232</created>
+      <updated>1384484422232</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -887,7 +773,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23027259" sideWeight="0.67176634" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24677187" sideWeight="0.39499304" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24677187" sideWeight="0.60917944" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.67140824" order="7" side_tool="false" content_ui="tabs" />
@@ -900,7 +786,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24605452" sideWeight="0.3398058" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32823366" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -908,7 +794,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24677187" sideWeight="0.67176634" order="0" side_tool="true" content_ui="combo" x="610" y="194" width="220" height="472" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24677187" sideWeight="0.3908206" order="0" side_tool="true" content_ui="combo" x="610" y="194" width="220" height="472" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1021,41 +907,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="27" selection-start="534" selection-end="534" vertical-scroll-proportion="0.1962482">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Servidor/Software/sdk/platforms/android-8/android.jar!/android/app/Activity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="19" selection-start="2356" selection-end="2356" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Servidor/Software/sdk/platforms/android-8/android.jar!/android/app/Instrumentation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="16" selection-start="5963" selection-end="5963" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/menu_menu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="38" selection-start="144" selection-end="144" vertical-scroll-proportion="0.07359307">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable/group_indicator.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="56" selection-start="357" selection-end="357" vertical-scroll-proportion="0.14718615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable/bitmap_arrow_right.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="51" selection-start="302" selection-end="302" vertical-scroll-proportion="0.17171717">
@@ -1077,55 +928,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/child_item.xml">
+    <entry file="file://$PROJECT_DIR$/res/values/styles_numeric_app_theme.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="16" selection-start="274" selection-end="274" vertical-scroll-proportion="0.12724552">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/group_item.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="14" selection-start="404" selection-end="404" vertical-scroll-proportion="0.22904192">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/adapters/ExpandableListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="5" selection-start="955" selection-end="955" vertical-scroll-proportion="0.33260393">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/biseccion/Biseccion_Auto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-port/Biseccion_Auto.xml">
-      <provider editor-type-id="text-editor">
-        <state line="6" column="54" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/Menu.java">
+    <entry file="file://$PROJECT_DIR$/res/values/themes_numeric_app_theme.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1312" selection-end="1312" vertical-scroll-proportion="0.0">
+        <state line="5" column="74" selection-start="241" selection-end="241" vertical-scroll-proportion="0.18599562">
           <folding />
         </state>
       </provider>
@@ -1140,10 +952,84 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values-v11/themes_numeric_app_theme.xml">
+    <entry file="file://$PROJECT_DIR$/res/drawable/activated_background_holo_light.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="41" selection-start="246" selection-end="246" vertical-scroll-proportion="0.2603939">
+        <state line="17" column="32" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/edit_text_holo_light.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="61" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.59080964">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="51" selection-start="1241" selection-end="1241" vertical-scroll-proportion="0.5151515">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/biseccion/Biseccion_Auto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="52" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-port/biseccion_auto.xml">
+      <provider editor-type-id="text-editor">
+        <state line="20" column="57" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/group_item.xml">
+      <provider editor-type-id="text-editor">
+        <state line="9" column="14" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://E:/Servidor/Software/sdk/platforms/android-8/android.jar!/android/widget/ExpandableListView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="157" selection-end="157" vertical-scroll-proportion="0.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/vistas/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="50" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/child_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="24" selection-start="412" selection-end="412" vertical-scroll-proportion="0.22904192">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wayproyect/numeric_app/adapters/ExpandableListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="9" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.46031746">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

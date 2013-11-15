@@ -3,7 +3,7 @@
 <!-- Generated with http://android-holo-colors.com -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <style name="Numeric_App_Theme" parent="android:Theme.Light">
+    <style name="Numeric_App_Theme" parent="android:Theme.Black.NoTitleBar">
 
         <item name="android:editTextStyle">@style/EditTextNumeric_App_Theme</item>
 

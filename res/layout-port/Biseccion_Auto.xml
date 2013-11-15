@@ -10,17 +10,36 @@
             android:orientation="horizontal"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
-            android:layout_marginLeft="5dp">
+            android:layout_marginLeft="5dp" android:layout_marginRight="5dp">
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="F(x):"
                 android:id="@+id/textView" android:layout_gravity="left|center_vertical" android:textColor="#4e4e4e"
-                android:textSize="16dp"/>
-        <EditText
+                android:textSize="16dp" android:textStyle="bold"/>
+        <EditText android:layout_width="fill_parent" android:layout_height="wrap_content"
+                  android:id="@+id/editText" android:inputType="text|textNoSuggestions"
+                  android:autoText="false"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+                  android:layout_height="wrap_content" android:layout_gravity="center"
+                  android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:id="@+id/linearLayout"
+            >
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ER:"
+                  android:id="@+id/textView1" android:layout_gravity="left|center_vertical" android:textColor="#4e4e4e"
+                  android:textSize="16dp" android:textStyle="bold"/>
+        <EditText android:layout_width="120dp" android:layout_height="wrap_content"
+                  android:id="@+id/editText1"
+                  android:layout_gravity="center_vertical|left" android:numeric="integer|decimal"
+                  android:inputType="textNoSuggestions|numberDecimal"/>
+        <TextView android:layout_width="40dp" android:layout_height="wrap_content" android:text="%"
+                  android:id="@+id/textView2" android:layout_gravity="left|center_vertical" android:textColor="#4e4e4e"
+                  android:textSize="16dp" android:textStyle="bold"/>
+        <Button
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="New EditText"
-                android:id="@+id/editText" android:layout_marginRight="5dp" android:layout_gravity="center_vertical"/>
+                android:layout_height="fill_parent"
+                android:text="Calcular"
+                android:id="@+id/button" style="@style/ImageButtonNumeric_App_Theme"
+                android:layout_gravity="center_horizontal"/>
     </LinearLayout>
 </LinearLayout>

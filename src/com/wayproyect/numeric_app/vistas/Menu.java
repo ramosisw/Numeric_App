@@ -10,6 +10,7 @@ import android.widget.ExpandableListView;
 import android.widget.ExpandableListView.OnChildClickListener;
 import com.wayproyect.numeric_app.R;
 import com.wayproyect.numeric_app.adapters.ExpandableListAdapter;
+import com.wayproyect.numeric_app.vistas.biseccion.Biseccion_Auto;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -28,6 +29,7 @@ public class Menu extends Activity {
     List<String> childList;
     Map<String, List<String>> encontrar_raiz;
     ExpandableListView expListView;
+    Class[][] encontrarRaiz = {{Biseccion_Auto.class}};
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,7 +48,8 @@ public class Menu extends Activity {
         expListView.setOnChildClickListener(new OnChildClickListener() {
             public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
                 final String selected = expListAdapter.getChild(groupPosition, childPosition);
-                //Toast.makeText(getBaseContext(), selected + "\n" + groupPosition + "\n" + childPosition, Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(Menu.this, encontrarRaiz[groupPosition][childPosition]);
+                startActivity(intent);
                 return true;
             }
         });

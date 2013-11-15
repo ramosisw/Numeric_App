@@ -2,6 +2,7 @@ package com.wayproyect.numeric_app.vistas.biseccion;
 
 import android.app.Activity;
 import android.os.Bundle;
+import com.wayproyect.numeric_app.R;
 
 /**
  * Created with IntelliJ IDEA.
@@ -13,5 +14,6 @@ import android.os.Bundle;
 public class Biseccion_Auto extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        super.setContentView(R.layout.biseccion_auto);
     }
 }
