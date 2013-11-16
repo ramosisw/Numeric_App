@@ -20,5 +20,22 @@
         <item name="android:spinnerItemStyle">@style/SpinnerItemNumeric_App_Theme</item>
 
     </style>
+    <style name="Numeric_App_Theme_TitleBar" parent="android:Theme.Light">
+
+        <item name="android:editTextStyle">@style/EditTextNumeric_App_Theme</item>
+
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewNumeric_App_Theme</item>
+
+        <item name="android:buttonStyle">@style/ButtonNumeric_App_Theme</item>
+
+        <item name="android:imageButtonStyle">@style/ImageButtonNumeric_App_Theme</item>
+
+        <item name="android:listViewStyle">@style/ListViewNumeric_App_Theme</item>
+
+        <item name="android:listViewWhiteStyle">@style/ListViewNumeric_App_Theme.White</item>
+
+        <item name="android:spinnerItemStyle">@style/SpinnerItemNumeric_App_Theme</item>
+
+    </style>
 
 </resources>

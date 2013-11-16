@@ -9,4 +9,14 @@
     <string name="name_colaborador1">Julio C. Ramos</string>
     <string name="correo_colaborador1">ramos.isw@gmail.com</string>
     <string name="algorimos_encontrar_raiz">Algorimos para Encontrar una Raiz</string>
+    <string name="biseccion_manual">Bisección Manual</string>
+    <string name="biseccion_automatico">Bisección Automatico</string>
+    <string name="regla_falsa_manual">Regla Falsa Manual</string>
+    <string name="regla_falsa_automatico">Regla Falsa Automatico</string>
+    <string name="name_colaborador2">Edgar A. Rascon</string>
+    <string name="correo_colaborador2">edgar.rascon02@gmail.com</string>
+    <string name="name_colaborador3">Gabriela I. Morales</string>
+    <string name="correo_colaborador3">givonnemorales@gmail.com</string>
+    <string name="name_colaborador4">Francisco J. Meraz</string>
+    <string name="correo_colaborador4">fjaviermeraz@gmail.com</string>
 </resources>

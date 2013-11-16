@@ -18,16 +18,20 @@
                   android:screenOrientation="portrait"
                   android:theme="@android:style/Theme.NoTitleBar"/>
         <activity android:name=".vistas.biseccion.Biseccion_Auto"
-                  android:theme="@style/Numeric_App_Theme"
+                  android:theme="@style/Numeric_App_Theme_TitleBar"
+                  android:label="@string/biseccion_automatico"
                   android:screenOrientation="portrait"/>
         <activity android:name=".vistas.biseccion.Biseccion_Manual"
-                  android:theme="@style/Numeric_App_Theme"
+                  android:theme="@style/Numeric_App_Theme_TitleBar"
+                  android:label="@string/biseccion_manual"
                   android:screenOrientation="portrait"/>
         <activity android:name=".vistas.regla_falsa.ReglaFalsa_Auto"
-                  android:theme="@style/Numeric_App_Theme"
+                  android:theme="@style/Numeric_App_Theme_TitleBar"
+                  android:label="@string/regla_falsa_automatico"
                   android:screenOrientation="portrait"/>
         <activity android:name=".vistas.regla_falsa.ReglaFalsa_Manual"
-                  android:theme="@style/Numeric_App_Theme"
+                  android:theme="@style/Numeric_App_Theme_TitleBar"
+                  android:label="@string/regla_falsa_manual"
                   android:screenOrientation="portrait"/>
     </application>
 </manifest>
