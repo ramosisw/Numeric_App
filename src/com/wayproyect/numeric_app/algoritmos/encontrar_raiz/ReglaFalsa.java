@@ -1,4 +1,6 @@
-package com.wayproyect.numeric_app.algoritmos;
+package com.wayproyect.numeric_app.algoritmos.encontrar_raiz;
+
+import com.wayproyect.numeric_app.algoritmos.EvalFunction;
 
 import java.text.DecimalFormat;
 

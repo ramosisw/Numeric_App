@@ -1,7 +1,5 @@
 package com.wayproyect.numeric_app.algoritmos;
 
-import com.wayproyect.numeric_app.FormatearFuncion.FormatearFuncion;
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
@@ -23,7 +21,7 @@ public class ShutingYard {
      */
     public ShutingYard(String cadena, double x) {
         String replace = cadena.toLowerCase();
-        replace = new FormatearFuncion(replace).getFx().replace("x", x + "");
+        //replace = new FormatearFuncion(replace).getFx().replace("x", x + "");
         //System.out.println(replace);
         op = new HashMap<String, Integer>();
         //Agregar al Map el orden de procedencia de los signos

@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.*;
 import com.wayproyect.numeric_app.R;
 import com.wayproyect.numeric_app.algoritmos.EvalFunction;
-import com.wayproyect.numeric_app.algoritmos.ReglaFalsa;
+import com.wayproyect.numeric_app.algoritmos.encontrar_raiz.ReglaFalsa;
 
 /**
  * Created with wayproyect

@@ -5,8 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.*;
 import com.wayproyect.numeric_app.R;
-import com.wayproyect.numeric_app.algoritmos.Biseccion;
 import com.wayproyect.numeric_app.algoritmos.EvalFunction;
+import com.wayproyect.numeric_app.algoritmos.encontrar_raiz.Biseccion;
 
 /**
  * Created with IntelliJ IDEA.
