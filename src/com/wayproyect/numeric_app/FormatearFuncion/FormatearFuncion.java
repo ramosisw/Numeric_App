@@ -47,6 +47,12 @@ public class FormatearFuncion {
         for (int i = 0; i < fx.length(); i++) {
             char caracter = fx.charAt(i);
             int x = key.get(caracter) == null ? 0 : key.get(caracter);
+            if (caracter == 'x' && i != 0) {
+                if (Character.isDigit(fx.charAt(i - 1))) {
+                    salida += " * " + fx.charAt(i) + " ";
+                    continue;
+                }
+            }
             if (x == 2) {//que sea un numero negativo
                 if (i != 0) {//que no este al inicio de la cadena
                     x = key.get(fx.charAt(i - 1)) == null ? -1 : key.get(fx.charAt(i - 1));
@@ -55,6 +61,8 @@ public class FormatearFuncion {
                     } else {
                         salida += " " + fx.charAt(i) + " ";
                     }
+                } else {
+                    salida += fx.charAt(i) + "1 * ";
                 }
             } else if (key.get(caracter) != null) {
                 salida += " " + fx.charAt(i) + " ";
