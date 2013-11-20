@@ -8,12 +8,13 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ExpandableListView;
 import android.widget.ExpandableListView.OnChildClickListener;
+import android.widget.Toast;
 import com.wayproyect.numeric_app.R;
 import com.wayproyect.numeric_app.adapters.ExpandableListAdapter;
-import com.wayproyect.numeric_app.vistas.biseccion.Biseccion_Auto;
 import com.wayproyect.numeric_app.vistas.biseccion.Biseccion_Manual;
-import com.wayproyect.numeric_app.vistas.regla_falsa.ReglaFalsa_Auto;
+import com.wayproyect.numeric_app.vistas.newton.Newton_Manual;
 import com.wayproyect.numeric_app.vistas.regla_falsa.ReglaFalsa_Manual;
+import com.wayproyect.numeric_app.vistas.secante.Secante_manual;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -33,8 +34,10 @@ public class Menu extends Activity {
     Map<String, List<String>> encontrar_raiz;
     ExpandableListView expListView;
     Class[][] encontrarRaiz = {
-            {Biseccion_Auto.class, Biseccion_Manual.class},
-            {ReglaFalsa_Auto.class, ReglaFalsa_Manual.class}};
+            {null, Biseccion_Manual.class},
+            {null, ReglaFalsa_Manual.class},
+            {null, Newton_Manual.class},
+            {null, Secante_manual.class}};
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,9 +55,16 @@ public class Menu extends Activity {
 
         expListView.setOnChildClickListener(new OnChildClickListener() {
             public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
-                Intent intent = new Intent(Menu.this, encontrarRaiz[groupPosition][childPosition]);
-                startActivity(intent);
-                return true;
+                Class clase = encontrarRaiz[groupPosition][childPosition];
+                if (clase == null) {
+                    Toast.makeText(Menu.this, "Estamos trabajando en Ello\nPronto quedara ;)", Toast.LENGTH_LONG).show();
+                    return false;
+                } else {
+                    Intent intent = new Intent(Menu.this, clase);
+                    startActivity(intent);
+                    return true;
+                }
+
             }
         });
     }
@@ -63,7 +73,7 @@ public class Menu extends Activity {
         groupList = new ArrayList<String>();
         groupList.add("Bisección");
         groupList.add("Regla Falsa");
-        //groupList.add("Newton Raphson");
+        groupList.add("Newton Raphson");
         //groupList.add("Secante");
 
     }

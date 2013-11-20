@@ -33,5 +33,13 @@
                   android:theme="@style/Numeric_App_Theme_TitleBar"
                   android:label="@string/regla_falsa_manual"
                   android:screenOrientation="portrait"/>
+        <activity android:name=".vistas.newton.Newton_Manual"
+                  android:theme="@style/Numeric_App_Theme_TitleBar"
+                  android:label="@string/newton_manual"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".vistas.secante.Secante_manual"
+                  android:theme="@style/Numeric_App_Theme_TitleBar"
+                  android:label="@string/secante_manual"
+                  android:screenOrientation="portrait"/>
     </application>
 </manifest>
